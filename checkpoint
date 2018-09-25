@@ -1,0 +1,38 @@
+Module 0 Checkpoint
+
+Teacher­led. Before starting, make sure every student has imported their Module 0 Java
+Project into Eclipse. Check that all programs are closed but students have selected the
+default package in the Eclipse Package Explorer.
+Instruct students to do the following ­ check student screens to monitor understanding.
+Help students who are stuck, but note lack of mastery. 
+          1. Create a new Java class called Checkpoint
+          public class checkpoint{
+          
+          2. Add a main method to the class
+          public static void main(String[] args)    {
+          
+          3. Code a pop­up dialog to ask the user for their favorite color, 
+          e.g. “red” 
+        String color =   JOptionPane.showInputDialog("whats your favorite color?");
+          
+          4. Code another pop­up dialog to tell the user that the color they typed is also
+your favorite color, 
+						JOptionPane.showMessageDialog(null,  color+ " is my favorite color also");
+          e.g. “red is also my favorite color”
+          
+          
+          5. Draw a triangle on the screen using a Robot object (Hint: turn angle = 120).
+          
+          Robot robert = new Robot
+          robert.penDown();
+          robert.turn(120);
+          robert.move(50);
+          robert.turn(120);
+          robert.move(50);
+          robert.turn(120);
+          robert.move(50);
+          
+         } 
+EXTRA: For students who complete activity quickly, have them try to turn the name of
+the color into a matching pen color and have the robot draw the triangle in that color.
+This is NOT part of the checkpoint! 
